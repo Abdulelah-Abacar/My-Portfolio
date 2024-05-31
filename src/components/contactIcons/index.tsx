@@ -15,7 +15,7 @@ const contactIcons = [
     icon: TwitterIcon,
   },
   {
-    link: "https://instagram.com/",
+    link: "https://instagram.com/a2.b32",
     icon: InstagramIcon,
   },
   {
