@@ -33,11 +33,9 @@ const ProjectCard: FunctionComponent<ProjectCardContent> = ({
       <b className="self-stretch leading-[158%] font-extrabold mq450:text-5xl mq450:leading-[38px] mq1025:text-13xl mq1025:leading-[51px]">
         {projectName}
       </b>
-      <div className="w-full flex flex-row items-center justify-center gap-[10px] text-xl">
+      <div className="w-full flex flex-wrap items-center justify-center gap-2 gap-y-0 text-xl">
         {projectTools?.map((tool, i) => (
-          <div key={i} className="leading-[32px]">
-            {tool}
-          </div>
+          <span key={i}>{tool}</span>
         ))}
       </div>
     </div>
